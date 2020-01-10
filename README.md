@@ -23,8 +23,8 @@ $ python pyinstaller
 
 ## Usage
 
-![启动页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-1.png)
-![选择页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-2.png)
-![结果页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-3.png)
+![启动页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-1.png)  
+![选择页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-2.png)  
+![结果页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-3.png)  
 
 
