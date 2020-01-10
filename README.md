@@ -15,9 +15,9 @@ Mac10.14+python3.7+pyqt5.9.1
 
 ## Future
 
--[] support Threading
--[] Beautify the GUI
--[] More function
+- [ ] support Threading
+- [ ] Beautify the GUI
+- [ ] More function
 
 ## Dependency
 
