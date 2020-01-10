@@ -1,75 +1,30 @@
 # Netease Cloud Music Copyright Protection File Dump
 
-![shield](https://img.shields.io/badge/python-2.7%7C3.4+-blue.svg)
+## Origin
 
-## Credit
-
-### Origin
-
-- [anonymous5l/ncmdump](https://github.com/anonymous5l/ncmdump): Original repository
-
-### Fork
-
-- [JamieDummy/NCM_dump](https://github.com/JamieDummy/NCM_dump): Add GUI
-- [mnilzg/ncmdump](https://github.com/mnilzg/ncmdump): Speed up with NumPy
-
-
-### Contributor
-
-- [@kalteblau](https://github.com/kalteblau): Validate path & collision
-- [@HarrisonXi](https://github.com/HarrisonXi): Add missing identifier
-- [@leconio](https://github.com/leconio): Handle dict key missing exception
-- [@lonelyhentai](https://github.com/lonelyhentai): Add pip support
+ - [nondanee/ncmdump](https://github.com/nondanee/ncmdump)
 
 ## Dependency
 
 ```
-$ pip install pycryptodome mutagen
+$ pip install pycryptodome mutagen pyqt5 pyinstaller 
 ```
 
 ## Install
 
+ - if your os is windows ,you will get a exe application ;
+ - if your os version is Mac, you will get a app applciaiton and a bash application; If your app file doesn't work,please check your source,you must use 
+absolute path
+
 ```
-$ pip install git+https://github.com/nondanee/ncmdump.git
+$ cd config 
+$ python pyinstaller
 ```
 
 ## Usage
 
-### Execute
+![启动页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-1.png)
+![选择页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-2.png)
+![结果页面](https://www.zhangbohan.xyz/images/usage/ncmdump-pyqt5-3.png)
 
-```sh
-$ ncmdump -h # equivalent to "python ncmdump/app.py -h"
-usage: ncmdump [-h] [-f format] [-o output] [-d] [-c | -r] [input [input ...]]
 
-positional arguments:
-  input      ncm file or folder path
-
-optional arguments:
-  -h         show this help message and exit
-  -f format  customize naming format
-  -o output  customize saving folder
-  -d         delete source after conversion
-  -c         overwrite file with the same name
-  -r         auto rename if file name conflicts
-```
-
-> Supported name format holder: `%artist%`, `%title%`, `%album%`
-
-### Import
-
-```python
-from ncmdump import dump
-```
-
-```python
-def dump(input_path, output_path = None, skip = True):
-    '''
-    args:
-        input_path: a string of input file path
-        output_path: a string of output file path or a naming function
-        skip: a boolean controls conversion skipping when output file exists
-
-    returns:
-        a string of output file path or none if conversion is skipped
-    '''
-```
