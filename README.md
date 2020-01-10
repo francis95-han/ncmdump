@@ -10,7 +10,7 @@ This repository is a tool to transfer .ncm to .mp3 by using python and PyQt5.The
 
 ## Environment
 
-window10+python3.7+pyqt5.10.1
+window10+python3.7+pyqt5.10.1  
 Mac10.14+python3.7+pyqt5.9.1
 
 ## Dependency
