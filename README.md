@@ -4,6 +4,15 @@
 
  - [nondanee/ncmdump](https://github.com/nondanee/ncmdump)
 
+## Introduce
+
+This repository is a tool to transfer .ncm to .mp3 by using python and PyQt5.The transfer function depend on [nondanee/ncmdump](https://github.com/nondanee/ncmdump).
+
+## Environment
+
+window10+python3.7+pyqt5.10.1
+Mac10.14+python3.7+pyqt5.9.1
+
 ## Dependency
 
 ```
